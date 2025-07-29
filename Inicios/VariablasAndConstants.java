@@ -17,6 +17,7 @@ public class VariablasAndConstants {
 
         //Constantes (ya que no cambian o varian) ✅
         final String EMAIL = "no-cambio@gmail.com";
+        System.out.println(EMAIL);
 
         //es buena practica escribir las contantes en MAYUSCULAS
 
