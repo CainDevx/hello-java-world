@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 public class Operators {
     public static void main(String[] args) {
 
@@ -31,7 +33,80 @@ public class Operators {
         ///////////////////////////////////////////////////////////////////////
         */
 
-        //Operadores de Asignacion
+        //Operadores de Asignacion  (es el signo de igual)
+
+        a = b; //Osea ahora A vale lo mismo que B
+
+        a += 1; //significa que ahora A mas 1
+
+         //Tambien existe los:
+
+        a -=1;  //resta
+        a *=2;  //multiplicacion
+        a /=2;  //division
+
+        /*
+        ///////////////////////////////////////////////////////////////////////
+        */
+
+        //Operadores de Compraracion o relacionales
+
+        int z = 10;
+        int x = 5;
+
+        System.out.println(z == x);
+        System.out.println(z != x);
+        System.out.println(z <= x); //menor o igual
+        System.out.println(z >= x); //mayor o igual
+
+
+        /*
+        ///////////////////////////////////////////////////////////////////////
+        */
+
+        //Operadores Logicos
+
+        //AND  - Y (Tambien llamada "Conjuncion Logica)
+           //Ambos valores tienen que ser VERDADEROS
+        //OR - O (Tambien llamado "Diyuncion logica)
+           //Devuelve verdadero si al menos 1 es VERDADERO
+        //NOT - NO (Tambien llamada "Negacion logica")
+           //Devuelve TRUE si la entra es FALSE o devuelve FALSE si la entrada es TRUE
+
+// Ejercicios
+// ¿Cuál es el resultado de esta expresión combinada?
+        /*
+        (false or true) and (not true or false)
+        true and false = false //resultado final FALSE
+
+        not (true and (false or not false)) or (true and false)
+        false or false = false //resultado final FALSE
+        */
+
+        System.out.println(2 >= 5 && 10 < 1 );
+        System.out.println(2 >= 5 && 10 == 2 );
+        System.out.println(20 >= 5 && 10 == 10 );
+
+
+        //Operadores Unarios
+
+        System.out.println(-z); //vuelvo negativo al valor de Z
+        System.out.println(++z); //Esto lo que hace es aumentarlo y despues Print
+        System.out.println(z++); //Esto hace Print y luego lo aumenta.
+
+        //Funciona con el ++ o --, yo lo uso delante B++
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
