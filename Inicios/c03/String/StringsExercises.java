@@ -1,4 +1,4 @@
-import java.awt.*;
+package c03.String;
 
 public class StringsExercises {
     public static void main(String[] args) {

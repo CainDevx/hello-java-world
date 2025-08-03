@@ -1,3 +1,5 @@
+package c02.Operators;
+
 public class OperatorsExercises {
     public static void main(String[] args) {
 

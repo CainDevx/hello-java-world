@@ -1,4 +1,4 @@
-import org.w3c.dom.ls.LSOutput;
+package c02.Operators;
 
 public class Operators {
     public static void main(String[] args) {

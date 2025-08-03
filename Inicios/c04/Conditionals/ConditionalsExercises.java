@@ -1,3 +1,5 @@
+package c04.Conditionals;
+
 public class ConditionalsExercises {
     public static void main(String[] args) {
 

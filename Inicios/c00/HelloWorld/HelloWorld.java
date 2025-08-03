@@ -1,7 +1,9 @@
+package c00.HelloWorld;
+
 public class HelloWorld {
     //public significa que es publico
     //class es porque es un objeto de tipo class
-    //HelloWorld es el nombre de la Class y tiene que usarse CamelCase
+    //c00.HelloWorld.HelloWorld es el nombre de la Class y tiene que usarse CamelCase
 
     public static void main(String[] args) {
         //static no lo entiendo por ahora

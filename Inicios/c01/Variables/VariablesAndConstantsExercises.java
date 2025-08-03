@@ -1,3 +1,5 @@
+package c01.Variables;
+
 public class VariablesAndConstantsExercises {
     public static void main(String[] args) {
         /*
