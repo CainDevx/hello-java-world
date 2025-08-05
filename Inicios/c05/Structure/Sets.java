@@ -82,5 +82,16 @@ public class Sets {
         //Tambien existe otro con RetainAll, pero no me acuerdo que hace
 
 
+        //
+        String papel = "Sucio";
+        System.out.println(papel.hashCode()); // Me devolvio 80236295
+
+
+        // Ejemplo si hay colision (en este caso no)
+        System.out.println("Ana".hashCode()); // → 65972
+        System.out.println("ANA".hashCode()); // → 64948
+
+
+
     }
 }
